@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/my1.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -57,7 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Shourya kapoor`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Front-End Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Hlo Guys i am a Student of SRMIST Chennai , I Started my Coding Journey in second semister </p>
+                  <p>Hlo Guys i am a Student of SRMIST Chennai , I Started my Coding Journey in second semister. My First Hackathon is Saveetha Hack
+                    , There i have learned that how a hackathon is really run and from theis my journey of cooding start. After that i wented various Hackathon 
+                    and till now i have little bit experience of web development and buildings front end in websites   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
