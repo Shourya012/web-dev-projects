@@ -57,9 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Shourya kapoor`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Front-End Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Hlo Guys i am a Student of SRMIST Chennai , I Started my Coding Journey in second semister. My First Hackathon is Saveetha Hack
-                    , There i have learned that how a hackathon is really run and from theis my journey of cooding start. After that i wented various Hackathon 
-                    and till now i have little bit experience of web development and buildings front end in websites   </p>
+                  <p>Hello everyone! I am currently pursuing my studies at SRMIST Chennai. I embarked on my coding journey during my second semester, with Saveetha Hack as my first-ever hackathon. It was a transformative experience that showed me how hackathons truly function and ignited my passion for technology. Since then, I’ve actively taken part in multiple hackathons, gradually building hands-on experience in web development — with a special focus on crafting engaging front-end websites. The journey so far has been both challenging and rewarding, and I look forward to expanding my skill set even further.   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
