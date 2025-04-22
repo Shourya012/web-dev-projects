@@ -616,3 +616,179 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Navbar */
+  nav.navbar {
+    padding: 10px 0;
+  }
+  nav.navbar a.navbar-brand {
+    width: 20%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .navbar-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* Banner */
+  .banner {
+    padding: 150px 0 50px 0;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .banner button {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  /* Skills Section */
+  .skill h2 {
+    font-size: 30px;
+  }
+  .skill p {
+    font-size: 14px;
+  }
+  .skill-slider .item img {
+    width: 70%;
+  }
+
+  /* Projects Section */
+  .project h2 {
+    font-size: 30px;
+  }
+  .project p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  .proj-imgbx {
+    margin-bottom: 20px;
+  }
+  .proj-txtx h4 {
+    font-size: 20px;
+  }
+  .proj-txtx span {
+    font-size: 12px;
+  }
+
+  /* Contact Section */
+  .contact h2 {
+    font-size: 30px;
+  }
+  .contact form input, .contact form textarea {
+    font-size: 14px;
+    padding: 12px 18px;
+  }
+  .contact form button {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  /* Footer */
+  .newsletter-bx {
+    padding: 40px 20px;
+  }
+  .newsletter-bx h3 {
+    font-size: 20px;
+  }
+  .new-email-bx button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .footer img {
+    width: 50%;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Navbar */
+  nav.navbar a.navbar-brand {
+    width: 30%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .navbar-text button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  /* Banner */
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+  .banner button {
+    font-size: 14px;
+  }
+
+  /* Skills Section */
+  .skill h2 {
+    font-size: 24px;
+  }
+  .skill p {
+    font-size: 12px;
+  }
+
+  /* Projects Section */
+  .project h2 {
+    font-size: 24px;
+  }
+  .project p {
+    font-size: 12px;
+  }
+  .proj-txtx h4 {
+    font-size: 18px;
+  }
+  .proj-txtx span {
+    font-size: 10px;
+  }
+
+  /* Contact Section */
+  .contact h2 {
+    font-size: 24px;
+  }
+  .contact form input, .contact form textarea {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  .contact form button {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  /* Footer */
+  .newsletter-bx {
+    padding: 20px 10px;
+  }
+  .newsletter-bx h3 {
+    font-size: 18px;
+  }
+  .new-email-bx button {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .footer img {
+    width: 70%;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
