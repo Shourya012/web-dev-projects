@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
-import { Question } from "react-bootstrap-icons";
 
 export const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
